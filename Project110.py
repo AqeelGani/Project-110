@@ -4,7 +4,7 @@ import pandas as pd
 import random
 import statistics
 
-df  = pd.read_csv('csv files/medium_data.csv')
+df  = pd.read_csv('medium_data.csv')
 data = df['claps'].tolist()
 p_mean = statistics.mean(data)
 p_stdev = statistics.stdev(data)
